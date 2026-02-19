@@ -1,0 +1,25 @@
+{
+  "name": "marketengine",
+  "version": "1.0.0",
+  "description": "Price engine for suns",
+  "homepage": "https://github.com/Mexzter/cc_market_engine#readme",
+  "bugs": {
+    "url": "https://github.com/Mexzter/cc_market_engine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mexzter/cc_market_engine.git"
+  },
+  "license": "ISC",
+  "author": "Mex",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
